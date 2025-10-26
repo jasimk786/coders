@@ -1,0 +1,55 @@
+# Large model files and checkpoints
+fine_tuned_bert/
+*/fine_tuned_bert/
+
+# CSV data files (too large for GitHub)
+*.csv
+Fake.csv/
+Real.csv/
+*/Fake.csv/
+*/Real.csv/
+
+# Environment files
+.env
+*/.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Node modules
+node_modules/
+*/node_modules/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SSH keys
+tm
+tm.pub
+*.pub
+*.pem
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
